@@ -1,0 +1,52 @@
+/* this is my external css styling page. it contains all the css styling applied to the HTML elements of the website. 
+This page has also been linked to each of the html pages that make up the website.*/
+
+/* below is coding that adds styles to individual elements:body, paragraphs, table, headings etc */
+body {
+    background-color: rgb(244, 232, 240);
+  }
+
+  p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font size: 23px;
+  }
+
+  ul{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font size: 23px;
+  }
+
+  table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font size: 20px;
+  }
+
+  h1 {
+    color: rgb(148, 78, 159);
+    text-align:center;
+  }
+  
+  h2 {
+    color: rgb(148, 78, 159);
+    text-align:left;
+  }
+
+  h3 {
+    color: rgb(148, 78, 159);
+    text-align: left;
+  }
+th {
+  background-color:rgb(112, 25, 149);
+  color: yellow;
+}
+/* below is the css class selector that was applied to h1 page heading/titles on each html page. this code gave the page title an underline, 
+without changing the prior code given to the h1 elements*/
+.underline-title {
+  text-decoration:underline;
+}
+/* below is the css id selector that was applied to the submit button in the form in html page 3. this code gave button a solid color with yellow font*/
+ #submit-button {
+  background-color:rgb(148, 78, 159);
+  color:yellow
+  
+ }
